@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Docker Containerization & IBM Cloud Deployment",
+    "url": "https://qpg.hashnode.dev/180325-docker-containerization-and-ibm-cloud-deployment",
+    "date": "2025-03-18",
+    "publication": "Quantum Proximity Gateway",
+    "summary": "Packaging a multi-component system with Docker and taking it to IBM Cloud, including the challenges of cross-platform builds."
+  },
+  {
+    "title": "Granite Hallucinations: NLP Fix",
+    "url": "https://qpg.hashnode.dev/070325-granite-hallucinations-nlp-fix",
+    "date": "2025-03-07",
+    "publication": "Quantum Proximity Gateway",
+    "summary": "How we reduced unexpected IBM Granite responses by introducing a more structured natural-language processing approach."
+  },
+  {
+    "title": "Facial Recognition & Encryption Clients",
+    "url": "https://qpg.hashnode.dev/250225-facial-recognition-and-encryption-clients",
+    "date": "2025-02-25",
+    "publication": "Quantum Proximity Gateway",
+    "summary": "Building facial recognition as a second authentication factor on a Raspberry Pi 5, alongside encrypted client communication."
+  },
+  {
+    "title": "HID Keyboard Simulation",
+    "url": "https://qpg.hashnode.dev/110225-hid-keyboard-simulation",
+    "date": "2025-02-11",
+    "publication": "Quantum Proximity Gateway",
+    "summary": "Why simulating keyboard input took us from a Raspberry Pi 5 to a Pico acting as a USB HID device."
+  },
+  {
+    "title": "Desktop App & RPi Code Troubleshooting and Progress",
+    "url": "https://qpg.hashnode.dev/300125-desktop-app-and-rpi-code-troubleshooting-and-progress",
+    "date": "2025-01-30",
+    "publication": "Quantum Proximity Gateway",
+    "summary": "Debugging the desktop application and Raspberry Pi integration, from command execution to component communication."
+  },
+  {
+    "title": "Basic Functionalities of the 5 Main Components",
+    "url": "https://qpg.hashnode.dev/120125-basic-functionalities-of-the-5-main-components",
+    "date": "2025-01-12",
+    "publication": "Quantum Proximity Gateway",
+    "summary": "Connecting the server, registration website, ESP32, Raspberry Pi, and desktop app into a working system."
+  },
+  {
+    "title": "Initial Blog Post",
+    "url": "https://qpg.hashnode.dev/101224-initial-blog-post",
+    "date": "2024-12-10",
+    "publication": "Quantum Proximity Gateway",
+    "summary": "The start of Quantum Proximity Gateway: client requirements, architecture, and progress through the first term."
+  },
+  {
+    "title": "VSCode to Emacs — the Beginning: Why?",
+    "url": "https://ucldevs.hashnode.dev/vscode-to-emacs-the-beginning-why",
+    "date": "2023-12-10",
+    "publication": "UCL Devs",
+    "summary": "Why I switched to Emacs: keyboard-first development, customisation, Org mode, and the joys of a steeper learning curve.",
+    "readMinutes": 7
+  }
+]
