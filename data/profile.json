@@ -1,0 +1,169 @@
+{
+  "contact": {
+    "emailDisplay": "raghavawasthi2005@gmail.com",
+    "emailTarget": "raghavawasthi2005+portfolio-website@gmail.com"
+  },
+  "earlierExperience": [
+    {
+      "role": "Network Science Researcher",
+      "company": "Cambridge Centre for International Research",
+      "dates": "May 2022 - Oct 2022",
+      "location": "",
+      "bullets": [
+        "Investigated how network structure affects epidemic spread by simulating Susceptible-Infected-Susceptible (SIS) dynamics and analysing cascades and connected components with Python, NetworkX, and Matplotlib.",
+        "Developed the analysis with Dr. Jonas L. Juul of Cornell University, comparing simulation behaviour across different network structures."
+      ]
+    },
+    {
+      "role": "Post-Quantum Cryptography Researcher",
+      "company": "Pioneer Academics",
+      "dates": "Feb 2022 - Jul 2022",
+      "location": "",
+      "bullets": [
+        "Produced a comparative research paper on NIST Round 3 post-quantum cryptography finalists by combining mathematical analysis with empirical C benchmarks on Linux.",
+        "Examined code-based, lattice-based, and multivariate approaches under Dr. Suleyman Uludag of the University of Michigan-Flint to compare their algorithmic design and performance."
+      ]
+    },
+    {
+      "role": "Student Intern",
+      "company": "Virsec Systems Inc.",
+      "dates": "Jul 2021 - Aug 2021",
+      "location": "",
+      "bullets": [
+        "Contributed Linux runtime-protection modules to a malware defence application using Python and PyTorch to support AI-driven threat detection.",
+        "Informed threat-prevention design by researching penetration-testing techniques and machine-learning approaches, then working with cross-functional teams to integrate and refine security measures for production deployments."
+      ]
+    },
+    {
+      "role": "Server Monitoring Application Developer",
+      "company": "IFFCO",
+      "dates": "2018",
+      "location": "Project engagement",
+      "bullets": [
+        "Supported server uptime at the Indian Farmers Fertilizers Cooperative by building a full-stack monitoring application with a Java backend and an HTML, CSS, and JavaScript frontend."
+      ]
+    }
+  ],
+  "projectEnhancements": {
+    "Playo - Audiobook Generator": {
+      "url": "https://github.com/levon-d/e-acc-playo",
+      "bullets": [
+        "Turned a listener’s story and narration preferences into a complete personalised audiobook at the E/Acc Hackathon by connecting OpenAI story generation, ElevenLabs speech synthesis, and a TypeScript/Firebase mobile app."
+      ]
+    },
+    "Post-Quantum Cryptography Research": {
+      "bullets": [
+        "Produced a supervised research paper comparing code-based, lattice-based, and multivariate NIST Round 3 post-quantum cryptography finalists through mathematical analysis and empirical C benchmarks, under Dr. Suleyman Uludag of the University of Michigan-Flint."
+      ]
+    }
+  },
+  "earlierProjects": [
+    {
+      "name": "Modified Tetris Autoplayer",
+      "technology": "Game AI, optimisation",
+      "dates": "",
+      "url": null,
+      "bullets": [
+        "Ranked in the top 10% of the cohort by building an autoplaying agent for modified Tetris that maximised score while minimising the number of blocks used."
+      ]
+    },
+    {
+      "name": "Game Boy Advance Web Emulator",
+      "technology": "Emulation, web development",
+      "dates": "",
+      "url": null,
+      "bullets": [
+        "Made classic Game Boy Advance games playable in a browser by recreating the console as a web application, bringing retro-game emulation to a web interface."
+      ]
+    },
+    {
+      "name": "Topic Identifier",
+      "technology": "Python, NLTK, spaCy",
+      "dates": "",
+      "url": "https://github.com/raghav2005/topic-identifier",
+      "bullets": [
+        "Helped readers identify the main subjects of a passage by building an NLP tool that extracts topics from user-supplied text using NLTK and spaCy."
+      ]
+    },
+    {
+      "name": "Chip-8 Emulator",
+      "technology": "Rust, Bash",
+      "dates": "",
+      "url": "https://github.com/raghav2005/Chip-8-Emulator",
+      "bullets": [
+        "Made retro Chip-8 games playable on desktop by implementing an emulator in Rust, translating a small virtual machine’s instruction set into an interactive application."
+      ]
+    },
+    {
+      "name": "Leap of Ninja",
+      "technology": "Python, Pygame",
+      "dates": "Year 11 enrichment project",
+      "url": "https://github.com/raghav2005/ninja-jumper",
+      "bullets": [
+        "Built a playable platform game during a Year 11 enrichment programme by using Pygame to bring together player controls, game logic, and real-time rendering."
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "ISMTF",
+      "result": "1st globally · school category",
+      "year": "2022",
+      "description": "International Schools Mathematics Teachers Foundation competition."
+    },
+    {
+      "title": "Senior UKMT",
+      "result": "Gold certificates",
+      "year": "2021 & 2022",
+      "description": "United Kingdom Mathematics Trust."
+    },
+    {
+      "title": "Euclid & Hypatia",
+      "result": "Distinctions",
+      "year": "2022",
+      "description": "University of Waterloo mathematics competitions."
+    },
+    {
+      "title": "UOWD Mathalon",
+      "result": "National top 5",
+      "year": "2022",
+      "description": "University of Wollongong in Dubai mathematics competition."
+    },
+    {
+      "title": "British Physics Olympiad",
+      "result": "Silver certificate",
+      "year": "2021",
+      "description": "BPhO."
+    }
+  ],
+  "hobbies": [
+    {
+      "title": "On the court & field",
+      "category": "Sport",
+      "description": "Cricket, volleyball, golf, badminton, padel, and dodgeball. Sport has also meant leading teams, coaching, and serving as UCL cricket vice-captain."
+    },
+    {
+      "title": "A different kind of keyboard",
+      "category": "Music",
+      "description": "Piano, guitar, and trumpet — another way to practise, experiment, and make something."
+    },
+    {
+      "title": "In the water & outdoors",
+      "category": "Past & present",
+      "description": "PADI Open Water certified scuba diver, with past experience competing in swimming and horse riding."
+    },
+    {
+      "title": "Curiosity after hours",
+      "category": "Other interests",
+      "description": "Writing, philosophy and AI ethics, retro-game emulation, and tinkering with tools such as Emacs and my personal development setup."
+    }
+  ],
+  "leadershipReplacements": {
+    "Served as a UCL programming tutor and cricket vice-captain; previously led the Dubai Computing Community and captained or coached cricket and volleyball teams.": [
+      "Led the Dubai Computing Community, bringing together 350+ members through hackathons and events for high-school and university students.",
+      "Supported GCSE and A-Level Computer Science students with four one-hour teaching sessions each week as a teaching assistant to the Head of Computer Science at Dubai College.",
+      "Worked as a UCL programming tutor and contributed technical articles to the UCL Devs Blog.",
+      "Served as cricket vice-captain at UCL and previously captained or coached cricket and volleyball teams."
+    ]
+  }
+}

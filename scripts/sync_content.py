@@ -96,22 +96,18 @@ def main():
         cv=a.cv_dir
         content=(cv/'master-resume/content.tex').read_text(); education=(cv/'shared/education.tex').read_text()
         source={'repository':'https://github.com/raghav2005/cv','path':'master-resume/content.tex','revision':'local-working-copy'}
-        pdf=(cv/'master-resume/Resume.pdf').read_bytes()
     elif a.remote:
         commit=json.loads(download('https://api.github.com/repos/raghav2005/cv/commits/main'))['sha']
         base=f'https://raw.githubusercontent.com/raghav2005/cv/{commit}/'
         content=download(base+'master-resume/content.tex').decode(); education=download(base+'shared/education.tex').decode()
         source={'repository':'https://github.com/raghav2005/cv','path':'master-resume/content.tex','revision':commit}
-        pdf=download(base+'master-resume/Resume.pdf')
     else: p.error('Choose --cv-dir or --remote')
     result=parse_resume(content,education); result['source']=source
-    if not pdf.startswith(b'%PDF-'): raise ValueError('Résumé download is not a PDF')
     # Validate all imports before overwriting committed snapshots.
     rss=a.rss.read_bytes() if a.rss else download('https://qpg.hashnode.dev/rss.xml')
     sitemap=a.sitemap.read_bytes() if a.sitemap else download('https://qpg.hashnode.dev/sitemap.xml')
     sync_blogs(rss,sitemap)
     write_json(ROOT/'data/resume.json',result)
-    (ROOT/'public/resume.pdf').write_bytes(pdf)
     print(f'CV: {len(result["experiences"])} roles, {len(result["projects"])} projects, {len(result["skills"])} skill groups, {len(result["education"])} schools.')
 
 if __name__=='__main__': main()

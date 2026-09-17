@@ -1,20 +1,102 @@
 {
   "projects": {
-    "Walrus-Cache-CDN (UCL Dissertation)": {"slug":"walrus-cache-cdn","category":"Distributed systems · UCL dissertation","title":"Walrus Cache CDN","url":"https://github.com/raghav2005/Walrus-Cache-CDN-FYP"},
-    "Quantum Proximity Gateway (IBM and UCL)": {"slug":"quantum-proximity-gateway","category":"Edge computing · IBM × UCL","title":"Quantum Proximity Gateway","url":"https://github.com/proximity-gateway/main","writing":"https://qpg.hashnode.dev/"},
-    "Playo - Audiobook Generator": {"slug":"playo","category":"Applied AI · Mobile","title":"Playo — personalised audiobooks"},
-    "Assembly Code Visualiser": {"slug":"assembly-code-visualiser","category":"Developer tools · Education","title":"Assembly Code Visualiser","url":"https://github.com/raghav2005/Assembly-Code-Visualiser"},
-    "Post-Quantum Cryptography Research": {"slug":"post-quantum-research","category":"Research · Pioneer Academics","title":"Post-Quantum Cryptography Research"}
+    "Walrus-Cache-CDN (UCL Dissertation)": {
+      "slug": "walrus-cache-cdn",
+      "category": "Distributed systems · UCL dissertation",
+      "title": "Walrus Cache CDN",
+      "url": "https://github.com/raghav2005/Walrus-Cache-CDN-FYP"
+    },
+    "Quantum Proximity Gateway (IBM and UCL)": {
+      "slug": "quantum-proximity-gateway",
+      "category": "Edge computing · IBM × UCL",
+      "title": "Quantum Proximity Gateway",
+      "url": "https://github.com/proximity-gateway/main",
+      "writing": "https://qpg.hashnode.dev/"
+    },
+    "Playo - Audiobook Generator": {
+      "slug": "playo",
+      "category": "Applied AI · E/Acc Hackathon",
+      "title": "Playo — personalised audiobooks",
+      "url": "https://github.com/levon-d/e-acc-playo",
+      "announcement": "https://www.linkedin.com/feed/update/urn:li:activity:7157478876305145856/"
+    },
+    "Assembly Code Visualiser": {
+      "slug": "assembly-code-visualiser",
+      "category": "Developer tools · Education",
+      "title": "Assembly Code Visualiser",
+      "url": "https://github.com/raghav2005/Assembly-Code-Visualiser"
+    },
+    "Post-Quantum Cryptography Research": {
+      "slug": "post-quantum-research",
+      "category": "Research · Pioneer Academics",
+      "title": "Post-Quantum Cryptography Research"
+    },
+    "Modified Tetris Autoplayer": {
+      "slug": "tetris-autoplayer",
+      "category": "Game AI · Coursework",
+      "title": "Modified Tetris Autoplayer"
+    },
+    "Game Boy Advance Web Emulator": {
+      "slug": "game-boy-advance",
+      "category": "Systems · Emulation",
+      "title": "Game Boy Advance Web Emulator"
+    },
+    "Topic Identifier": {
+      "slug": "topic-identifier",
+      "category": "Natural language processing",
+      "title": "Topic Identifier"
+    },
+    "Chip-8 Emulator": {
+      "slug": "chip-8",
+      "category": "Systems · Rust",
+      "title": "Chip-8 Emulator"
+    },
+    "Leap of Ninja": {
+      "slug": "leap-of-ninja",
+      "category": "Game development",
+      "title": "Leap of Ninja"
+    }
   },
-  "additionalProjects":[
-    {"name":"LLM Model Router","category":"Applied AI","description":"An explainable model router with request-complexity classification, policy gates, NVIDIA NeMo Switchyard integration, and quality, cost, and latency evaluation. Built for integration and shadow evaluation.","url":"https://github.com/raghav2005/model-router","technology":"Python · NVIDIA NeMo Switchyard · Prometheus"},
-    {"name":"TLS with post-quantum KEMs","category":"Cryptography","description":"Implementing and integrating post-quantum key encapsulation mechanisms with the Transport Layer Security protocol.","url":"https://github.com/raghav2005/TLS-with-PQC-KEMs","technology":"Python · Post-quantum cryptography · TLS"},
-    {"name":"Chip-8 Emulator","category":"Systems","description":"A Chip-8 emulator written in Rust, exploring instruction execution, memory, and the foundations of emulation.","url":"https://github.com/raghav2005/Chip-8-Emulator","technology":"Rust · Emulation"}
+  "additionalProjects": [
+    {
+      "name": "LLM Model Router",
+      "category": "Applied AI",
+      "description": "An explainable model router with request-complexity classification, policy gates, NVIDIA NeMo Switchyard integration, and quality, cost, and latency evaluation. Built for integration and shadow evaluation.",
+      "url": "https://github.com/raghav2005/model-router",
+      "technology": "Python · NVIDIA NeMo Switchyard · Prometheus"
+    },
+    {
+      "name": "TLS with post-quantum KEMs",
+      "category": "Cryptography",
+      "description": "Implementing and integrating post-quantum key encapsulation mechanisms with the Transport Layer Security protocol.",
+      "url": "https://github.com/raghav2005/TLS-with-PQC-KEMs",
+      "technology": "Python · Post-quantum cryptography · TLS"
+    }
   ],
-  "contributions":[
-    {"name":"Apache Kvrocks","description":"Corrected SRANDMEMBER’s scalar return behaviour.","url":"https://github.com/apache/kvrocks/pull/3601","language":"Database behaviour"},
-    {"name":"mactop","description":"Added a keyboard-driven help menu to the Apple Silicon monitor.","url":"https://github.com/context-labs/mactop/pull/30","language":"Go · Developer experience"},
-    {"name":"Microsoft Terminal","description":"Made the project README easier to navigate with a table of contents.","url":"https://github.com/microsoft/terminal/pull/18056","language":"Documentation"},
-    {"name":"Docusaurus","description":"Updated GitHub-related documentation from Facebook to Meta.","url":"https://github.com/facebook/docusaurus/pull/10566","language":"Documentation"}
+  "contributions": [
+    {
+      "name": "Apache Kvrocks",
+      "description": "Corrected SRANDMEMBER’s scalar return behaviour.",
+      "url": "https://github.com/apache/kvrocks/pull/3601",
+      "language": "Database behaviour"
+    },
+    {
+      "name": "mactop",
+      "description": "Added a keyboard-driven help menu to the Apple Silicon monitor.",
+      "url": "https://github.com/context-labs/mactop/pull/30",
+      "language": "Go · Developer experience"
+    },
+    {
+      "name": "Microsoft Terminal",
+      "description": "Made the project README easier to navigate with a table of contents.",
+      "url": "https://github.com/microsoft/terminal/pull/18056",
+      "language": "Documentation"
+    },
+    {
+      "name": "Docusaurus",
+      "description": "Updated GitHub-related documentation from Facebook to Meta.",
+      "url": "https://github.com/facebook/docusaurus/pull/10566",
+      "language": "Documentation"
+    }
   ]
 }

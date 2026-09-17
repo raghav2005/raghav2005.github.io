@@ -3,6 +3,7 @@
 from html.parser import HTMLParser
 from pathlib import Path
 import json
+from content import load_content
 from urllib.parse import urlsplit,unquote
 
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'dist'
@@ -36,7 +37,7 @@ for path,doc in docs.items():
         if target.is_dir(): target=target/'index.html'
         assert target.exists(), f'Broken local destination from {path}: {link}'
         if parts.fragment: assert unquote(parts.fragment) in docs[target].ids, f'Broken anchor: {link}'
-cv=json.loads((ROOT/'data/resume.json').read_text())
+cv=load_content()
 home=' '.join(docs[OUT/'index.html'].text)
 projects=' '.join(docs[OUT/'projects/index.html'].text)
 for role in cv['experiences']:
@@ -49,5 +50,18 @@ for line in cv['leadership']: assert line in home, f'Missing leadership: {line}'
 writing=json.loads((ROOT/'data/writing.json').read_text())
 assert len(writing)==len({p['url'] for p in writing}), 'Duplicate writing URLs'
 for post in writing: assert post['url'] in docs[OUT/'writing/index.html'].links, f'Missing article: {post}'
-assert (OUT/'resume.pdf').read_bytes().startswith(b'%PDF-'), 'Invalid résumé PDF'
+for award in cv['awards']:
+    assert award['result'] in home and award['title'] in home, f'Missing award: {award}'
+for hobby in cv['hobbies']:
+    assert hobby['description'] in home, f'Missing hobby: {hobby}'
+for path,doc in docs.items():
+    assert all(url == 'mailto:'+cv['contact']['emailTarget'] for url in doc.links if url.startswith('mailto:')), f'Wrong email target in {path}'
+    assert 'raghavawasthi@me.com' not in path.read_text(), f'Old email remains in {path}'
+    assert cv['contact']['emailTarget'] not in ' '.join(doc.text), f'Tagged email exposed in display text in {path}'
+assert cv['contact']['emailDisplay'] in home
+pdf=(OUT/'resume.pdf').read_bytes()
+assert pdf.startswith(b'%PDF-'), 'Invalid résumé PDF'
+assert ('mailto:'+cv['contact']['emailTarget']).encode() in pdf, 'PDF email target missing'
+assert b'mailto:raghavawasthi@me.com' not in pdf, 'PDF old email target remains'
+
 print(f'Validated {len(docs)} pages, {len(cv["experiences"])} roles, {len(cv["projects"])} CV projects, all skills/education/leadership, {len(writing)} articles, and all local links.')
